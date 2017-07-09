@@ -7,7 +7,7 @@
 }
 
 #bannerButton {
-  background-color: #ff0090;
+  background-color: #77f442;
   color: #FFF;
   font-size: 15pt;
   font-weight: 700;
@@ -185,6 +185,24 @@ p {
   font-size: 17pt;
   font-weight: 300;
   line-height: 24pt;
+}
+
+#programBar1 {
+  background-color: #f74f31;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#programBar2 {
+  background-color: #3215d6;
+  color: #ffffff;
+}
+
+#programBar3 {
+  background-color: #77f442;
+  color: #ffffff;
 }
 
 .program-text {

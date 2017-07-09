@@ -7,4 +7,62 @@
     <span class = "glyphicon glyphicon-arrow-right" aria-hidden = "true"><span></a>
   </p>
 </div>
-{{vm.hello}}
+
+<!-- <p>{{vm.hello}}</p> -->
+
+<!-- <div class="container">
+  <div style="height: 305px">
+    <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+      <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+        <img ng-src="{{slide.image}}" style="margin:auto;">
+        <div class="carousel-caption">
+          <h1>{{slide.title}}</h1>
+          <p>{{slide.text}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-md-6">
+        <button type="button" class="btn btn-info" ng-click="addSlide()">Add Slide</button>
+        <button type="button" class="btn btn-info" ng-click="randomize()">Randomize slides</button>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" ng-model="noWrapSlides">
+            Disable Slide Looping
+          </label>
+        </div>
+      </div>
+      <div class="col-md-6">
+        Interval, in milliseconds: <input type="number" class="form-control" ng-model="myInterval">
+        <br />Enter a negative number or 0 to stop the interval.
+      </div>
+    </div>
+</div> -->
+
+<div ng-include = "'/views/partials/programBar.html'"></div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h2>Our Mission</h2>
+      <p>YouthCARE's mission is to promote respect for self and others, develop
+          future leaders, and provide youth with positive multicultural activities
+          and relationships with caring adults.</p>
+      <p>YouthCARE programs are designed to meet the holistic needs of young people.
+          We empower youth to feel pride in their culture, trust and respect
+          themselves and each other, and work toward greater cultural appreciation
+          and racial equality - that is what CARE stands for!</p>
+      <ul>
+        <li>Empowering Youth since 1974</li>
+        <li>2014 Minnesota Nonprofit Award for Excellence</li>
+        <li>Over 600 Youth served annually</li>
+      </ul>
+      <button class = "button">ABOUT US</button>
+    </div>
+    <div class="col-md-6">
+      <img src="/images/Home_circle.jpg" class = "img-respsonsive"
+            alt="Responsive image">
+    </div>
+  </div>
+</div>
