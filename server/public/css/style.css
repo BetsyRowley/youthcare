@@ -1,3 +1,7 @@
+#bodyFont {
+  font-family: 'Poppins', sans-serif;
+}
+
 #image-container {
   height: auto;
   width: 100%;
@@ -12,6 +16,15 @@
   display: flex;
 }
 
+.donateButton {
+  background-color: #3D36B9;
+  color: #FFF;
+  font-size: 11px;
+  padding: 15px 40px;
+  margin-top: 20px;
+  border-radius: 50px;
+  border: none;
+}
 
 .heading-center {
   text-align: center;
@@ -125,7 +138,6 @@
 }
 
 .timeline-container {
-  font-family: sans-serif;
   width: 100%;
   margin-top: 75px;
   display: block;

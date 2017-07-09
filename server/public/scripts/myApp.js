@@ -1,5 +1,5 @@
 angular
-  .module('myApp', ['ngRoute'])
+  .module('myApp', ['ngRoute', 'ui.bootstrap'])
   .config(['$locationProvider', '$routeProvider', config]);
 
 //Routes

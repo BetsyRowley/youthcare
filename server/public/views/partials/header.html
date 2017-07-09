@@ -1,35 +1,57 @@
 <nav class = "navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class = "navbar-brand" href="#">
+      <a class = "navbar-brand" href="#/home">
         <img src="" alt="Brand">
       </a>
     </div>
-    <div >
-    <ul class="nav navbar-nav" id = "navlist">
-      <li role = "presentation" class = "dropdown">
-        <a class = "dropdown-toggle" data-toggle = "dropdown" href = "#"
-            aria-haspopup = "true" aria-expanded = "false">
-              About<span class = "caret"></span>
-            </a>
-            <ul class = "dropdown-menu">
-              <li>History</li>
-              <li>Board of Directors</li>
-              <li>Staff</li>
-              <li>Awards & Recognition</li>
-              <li>Testimonials</li>
-            </ul>
-      </li>
-      <li role = "presentation"><a href = "#">Programs</a></li>
-      <li role = "presentation"><a href = "#">Volunteer</a></li>
-      <li role = "presentation"><a href = "#">News</a></li>
-      <li role = "presentation"><a href = "#">Events</a></li>
-      <li role = "presentation"><a href = "#">Contact</a></li>
-      <li role = "presentation"><a href = "#">Search</a></li>
-      <li role = "presentation"><a href = "#">
-          <span class = "glyphicon glyphicon-heart" aria-hidden = "true">
-          </span> Donate</a></li>
-    </ul>
+    <div>
+      <ul class="nav navbar-nav" id = "navlist">
+        <li uib-dropdown on-toggle = "toggled(open)">
+              <a href id = "simple-dropdown" uib-dropdown-toggle>
+                ABOUT <span class = "caret"></span>
+              </a>
+              <ul class = "dropdown-menu" uib-dropdown-menu
+                  aria-labelledby = "simple-dropdown">
+                <li><a href = "#/about">About Us</a></li>
+                <li><a href = "#/history">History</a></li>
+                <li><a href = "#">Board of Directors</a></li>
+                <li><a href = "#">Staff</a></li>
+                <li><a href = "#">Awards & Recognition</a></li>
+                <li><a href = "#">Testimonials</a></li>
+              </ul>
+        </li>
+        <li uib-dropdown on-toggle = "toggled(open)">
+              <a href id = "simple-dropdown" uib-dropdown-toggle>
+                PROGRAMS <span class = "caret"></span>
+              </a>
+              <ul class = "dropdown-menu" uib-dropdown-menu
+                  aria-labelledby = "simple-dropdown">
+                <li><a href = "#/campSunrise">Camp Sunrise</a></li>
+                <li><a href = "#/youthLeadProgram">YouthLEAD Program</a></li>
+                <li><a href = "#">Young Women's Mentoring Program</a></li>
+              </ul>
+        </li>
+        <li uib-dropdown on-toggle = "toggled(open)">
+              <a href id = "simple-dropdown" uib-dropdown-toggle>
+                VOLUNTEER <span class = "caret"></span>
+              </a>
+              <ul class = "dropdown-menu" uib-dropdown-menu
+                  aria-labelledby = "simple-dropdown">
+                <li><a href = "#volunteer">Volunteer Opportunities</a></li>
+                <li><a href = "#/youthLeadProgram">Youth Leaders</a></li>
+              </ul>
+        </li>
+        <li><a href = "#">NEWS</a></li>
+        <li><a href = "#/events">EVENTS</a></li>
+        <li><a href = "#/contactUs">CONTACT</a></li>
+        <li><a><span class = "glyphicon glyphicon-search" aria-hidden = "true">
+        </span> SEARCH</a></li>
+        <li>
+          <button class = "donateButton navbar-btn"><a href = "#">
+            <span class = "glyphicon glyphicon-heart" aria-hidden = "true">
+            </span> DONATE</a></button></li>
+      </ul>
   </div>
   </div>
 </nav>
