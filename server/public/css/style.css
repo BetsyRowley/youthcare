@@ -17,6 +17,38 @@
   border: none;
 }
 
+#bannerCampSunrise {
+  background-image: url('/images/CampSunrise_banner.jpg');
+  background-repeat: no-repeat;
+  color: #ffffff;
+  height: 580px;
+  position: relative;
+}
+
+#bannerContact {
+  background-image: url('/images/Contact_banner.jpg');
+  background-repeat: no-repeat;
+  color: #ffffff;
+  height: 730px;
+  position: relative;
+}
+
+#bannerEvents {
+  background-image: url('/images/Events_banner.jpg');
+  background-repeat: no-repeat;
+  color: #ffffff;
+  height: 577px;
+  position: relative;
+}
+
+#bannerHistory {
+  background-image: url('/images/History_banner.jpg');
+  background-repeat: no-repeat;
+  color: #ffffff;
+  height: 580px;
+  position: relative;
+}
+
 #bannerHome {
   background-image: url('/images/slide1.jpg');
   color: #ffffff;
@@ -25,11 +57,36 @@
 
 .bannerHeader {
   font-weight: 700;
-  font-size: 100pt;
+  font-size: 75pt;
+  text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#bannerPrograms {
+  background-image: url('/images/Programs_banner.jpg');
+  background-repeat: no-repeat;
+  color: #ffffff;
+  height: 580px;
+  position: relative;
+}
+
+#bannerYouthLead {
+  background-image: url('/images/YouthLEADProgram_banner.jpg');
+  background-repeat: no-repeat;
+  color: #ffffff;
+  height: 579px;
+  position: relative;
+}
+
+#bannerVolunteer {
+  background-image: url('/images/Volunteer_banner.jpg');
+  background-repeat: no-repeat;
+  color: #ffffff;
+  height: 578px;
+  position: relative;
 }
 
 .bannerSlideMain {
@@ -69,6 +126,11 @@
   margin-top: 20px;
   border-radius: 50px;
   border: none;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 40pt;
 }
 
 .heading-center {
@@ -117,6 +179,12 @@
 
 #navlist {
   float: right;
+}
+
+p {
+  font-size: 17pt;
+  font-weight: 300;
+  line-height: 24pt;
 }
 
 .program-text {
