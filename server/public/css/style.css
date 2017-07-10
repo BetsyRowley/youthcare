@@ -186,23 +186,34 @@ p {
   font-weight: 300;
   line-height: 24pt;
 }
+.programBarContent {
+  color: #ffffff;
+  font-size: 30pt;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 #programBar1 {
   background-color: #f74f31;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 300px;
+  text-align: center;
+  position: relative;
 }
 
 #programBar2 {
   background-color: #3215d6;
-  color: #ffffff;
+  height: 300px;
+  text-align: center;
+  position: relative;
 }
 
 #programBar3 {
   background-color: #77f442;
-  color: #ffffff;
+  height: 300px;
+  text-align: center;
+  position: relative;
 }
 
 .program-text {
