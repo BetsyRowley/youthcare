@@ -15,6 +15,8 @@
   margin-top: 20px;
   border-radius: 50px;
   border: none;
+  position: absolute;
+  top: 80%;
 }
 
 #bannerCampSunrise {
@@ -53,6 +55,7 @@
   background-image: url('/images/slide1.jpg');
   color: #ffffff;
   height: 1000px;
+  position: relative;
 }
 
 .bannerHeader {
@@ -92,22 +95,31 @@
 .bannerSlideMain {
   font-weight: 700;
   font-size: 135pt;
+  position: absolute;
+  top: 50%;
 }
 
 .bannerSlideSub {
   font-weight: 500;
   font-size: 20pt;
+  position: absolute;
+  top: 75%;
+}
 
 }#bodyFont {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
 
-#image-container {
-  height: auto;
-  width: 100%;
-  font-size: 0px;
-  display: flex;
+.button {
+  background-color: #3D36B9;
+  color: #FFF;
+  font-size: 15pt;
+  font-weight: 700;
+  padding: 15px 40px;
+  margin-top: 20px;
+  border-radius: 50px;
+  border: none;
 }
 
 #container {
@@ -115,6 +127,15 @@
   width: 100%;
   position: relative;
   display: flex;
+}
+
+#content {
+  padding: 100px;
+}
+
+.date {
+  color: #3D36B9;
+  font-weight: bold;
 }
 
 .donateButton {
@@ -155,6 +176,22 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#homeDiv2 {
+  background-color: #f2f2f2;
+  padding: 100px;
+}
+
+#homeDiv2Img {
+  width: 75%;
+}
+
+#image-container {
+  height: auto;
+  width: 100%;
+  font-size: 0px;
+  display: flex;
 }
 
 .image-text {
@@ -253,17 +290,6 @@ p {
   height: auto;
   margin-left: 30%;
   margin-bottom: 20px;
-}
-
-.button {
-  background-color: #3D36B9;
-  color: #FFF;
-  font-size: 15pt;
-  font-weight: 700;
-  padding: 15px 40px;
-  margin-top: 20px;
-  border-radius: 50px;
-  border: none;
 }
 
 .demographic-text {
