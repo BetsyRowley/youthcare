@@ -1,6 +1,7 @@
 #bannerAbout {
   background-image: url('/images/About_banner.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
   height: 580px;
   position: relative;
@@ -22,6 +23,7 @@
 #bannerCampSunrise {
   background-image: url('/images/CampSunrise_banner.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
   height: 580px;
   position: relative;
@@ -30,6 +32,7 @@
 #bannerContact {
   background-image: url('/images/Contact_banner.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
   height: 730px;
   position: relative;
@@ -38,6 +41,7 @@
 #bannerEvents {
   background-image: url('/images/Events_banner.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
   height: 577px;
   position: relative;
@@ -46,6 +50,7 @@
 #bannerHistory {
   background-image: url('/images/History_banner.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
   height: 580px;
   position: relative;
@@ -71,6 +76,7 @@
 #bannerPrograms {
   background-image: url('/images/Programs_banner.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
   height: 580px;
   position: relative;
@@ -79,6 +85,7 @@
 #bannerYouthLead {
   background-image: url('/images/YouthLEADProgram_banner.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
   height: 579px;
   position: relative;
@@ -87,6 +94,7 @@
 #bannerVolunteer {
   background-image: url('/images/Volunteer_banner.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
   height: 578px;
   position: relative;
@@ -237,6 +245,51 @@ p {
   font-weight: 300;
   line-height: 24pt;
 }
+
+#photoBar1 {
+  background-image: url('/images/Small_green1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 305px;
+  text-align: center;
+  position: relative;
+}
+
+#photoBar2 {
+  background-image: url('/images/Small_orange2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 305px;
+  text-align: center;
+  position: relative;
+}
+
+#photoBar3 {
+  background-image: url('/images/Small_blue3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 305px;
+  text-align: center;
+  position: relative;
+}
+
+#photoBar4 {
+  background-image: url('/images/Small_purple4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 305px;
+  text-align: center;
+  position: relative;
+}
+
+.photoBarContent {
+  color: #ffffff;
+  position: absolute;
+  top: 80%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+}
+
 .programBarContent {
   color: #ffffff;
   font-size: 30pt;
