@@ -149,6 +149,20 @@
   border: none;
 }
 
+#getInvolved {
+  background-image: url('/images/CTA_bckg(1).jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  /*height: 674px;*/
+  position: relative;
+  padding: 100px;
+}
+
+#getInvolved h3 {
+  text-align: center;
+}
+
 h2 {
   font-weight: 700;
   font-size: 40pt;
