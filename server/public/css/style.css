@@ -146,6 +146,16 @@
   font-weight: bold;
 }
 
+.demographic-text {
+  z-index: 100;
+  position: absolute;
+  color: #FFF;
+  top: 15%;
+  right: 30%;
+  bottom: 15%;
+  left: 15%;
+}
+
 .donateButton {
   background-color: #ff0090;
   color: #FFF;
@@ -258,6 +268,11 @@ h2 {
   justify-content: center;
   align-items: center;
   font-size: 20px;
+}
+
+.image-text-title {
+  font-weight: bold;
+  padding-bottom: 30px;
 }
 
 #mainNavigation {
@@ -380,6 +395,7 @@ p {
 .list {
   margin-left: 18%;
   margin-right: 18%;
+  margin-top: 3%;
 }
 
 .images {
@@ -391,26 +407,6 @@ p {
   height: auto;
   margin-left: 30%;
   margin-bottom: 20px;
-}
-
-.demographic-text {
-  z-index: 100;
-  position: absolute;
-  color: #FFF;
-  top: 15%;
-  right: 30%;
-  bottom: 15%;
-  left: 15%;
-  display: flex;
-}
-
-.image-text-title {
-  font-weight: bold;
-  padding-bottom: 30px;
-}
-
-.image-text-detail {
-
 }
 
 .timeline-container {
