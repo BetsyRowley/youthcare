@@ -137,6 +137,17 @@
   display: flex;
 }
 
+#contactContent {
+  margin: 100px 200px;
+  background-color: #f2f2f2;
+}
+
+#contactContent h3{
+  text-align: center;
+  font-weight: 700;
+  font-size: 40pt;
+}
+
 #content {
   padding: 100px;
 }
