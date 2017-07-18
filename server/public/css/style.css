@@ -475,3 +475,7 @@ ul.timeline li .item-detail {
   color: rgba(0,0,0,0.5);
   font-size: 15px;
 }
+
+.volunterHR {
+  border-top: 3px solid #ffffff;
+}

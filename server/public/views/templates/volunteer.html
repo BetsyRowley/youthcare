@@ -2,15 +2,60 @@
   <div ng-include = "'/views/partials/header.html'"></div>
 </div>
 
-<div class="container">
+<div class="container-fluid" id = "content">
   <h2 id = "headers2">Volunteer Opportunities</h2>
+  <br>
   <p>YouthCARE relies on the generosity and involvement of our community to be
       successful. Your contribution of time, talent, or financial resources
       means the world to us and the youth we work with. Please consider supporting
       us in one or more of the following ways:</p>
+  <br>
   <p>Contribute to YouthCARE: Donating to YouthCARE is easy! Follow this link
       to learn how.</p>
+  <br>
   <button class = "button">SEE PROGRAMS</button>
+</div>
+
+<div class = "container-fluid" id = "contactBackground">
+  <div id = "contactContent">
+    <h3>Get Involved! Sign up today.</h3>
+    <br>
+    <hr id = "contactHR">
+    <br>
+    <form>
+      <div class="form-group">
+        <input type="text" class = "form-control" placeholder="Name">
+      </div>
+      <div class="form-group">
+        <input type="email" class = "form-control" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <input type="phone" class = "form-control" placeholder="Phone">
+      </div>
+      <p>Select the program(s) you are interested in:</p>
+      <hr class = "volunterHR">
+      <label class="checkbox-inline">
+        <input type="checkbox" id="inlineCheckbox1" value="option1">
+        Youth LEAD Program
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" id="inlineCheckbox2" value="option2">
+        Camp Sunrise
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" id="inlineCheckbox3" value="option3">
+        Young Women's Mentoring Program
+      </label>
+      <hr class = "volunterHR">
+      <div class="form-check">
+        <label class = "form-check-label">
+          <input type="checkbox" class = "form-check-input" value="">
+            Sign up for our Newsletter
+        </label>
+      </div>
+      <button type="sumbit" id = "footerButton">SIGN UP</button>
+    </form>
+  </div>
 </div>
 
 <div ng-include = "'/views/partials/photoBar.html'"></div>
