@@ -286,6 +286,16 @@ h2 {
   padding-bottom: 30px;
 }
 
+.images {
+  width: 100%;
+}
+
+.list {
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-top: 3%;
+}
+
 #mainNavigation {
   font-size: 14pt;
   font-weight: 500;
@@ -300,7 +310,7 @@ h2 {
   height: 287px;
 }
 
-p {
+p, li {
   font-size: 17pt;
   font-weight: 300;
   line-height: 24pt;
@@ -393,24 +403,14 @@ p {
   text-align: center;
 }
 
-.spacer-youthLEAD {
-  background-color: #3D36B9;
-  padding: 20px 15px;
-}
-
 .spacer-campSunrise {
     background-color: #EC5D2F;
     padding: 20px 15px;
 }
 
-.list {
-  margin-left: 18%;
-  margin-right: 18%;
-  margin-top: 3%;
-}
-
-.images {
-  width: 100%;
+.spacer-youthLEAD {
+  background-color: #3D36B9;
+  padding: 20px 15px;
 }
 
 .sunrise-logo {
